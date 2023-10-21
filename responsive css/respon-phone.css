@@ -1,0 +1,112 @@
+
+/*-------------------------------------------------------------------*/
+/*                         phone responisive                         */
+/*-------------------------------------------------------------------*/
+
+@media(min-width:0px) and (max-width:600px){
+    header .container{
+        padding: 20px 0;
+    }
+    header .navbar .responsive-pc{
+        display: none;
+    }
+    header .responsive-phone{
+        display: flex;
+        z-index: 3;
+    }
+
+    header .navbar .search{
+        background: transparent; 
+        border-radius: none;
+        margin-left: 0;
+        transition: all .5s ease;
+    }
+    header .navbar .search i{
+        font-size: 25px;
+    }
+    header .responsive-phone>a:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    header .navbar .search > a {
+        margin-left: 0px;
+    }
+    header .navbar .search>a>span{
+        display: none;
+    }
+
+    header .logo img {
+        width: 120px;
+        height: 40px;
+    }
+
+    header .navbar .search > a {
+        padding: 0px;
+        background:transparent;
+        margin-left: 0;
+    }
+    header .navbar .search>a:hover{
+        color: #d34178;
+    }
+
+    header .navbar .search .search-page form {
+        width: 90%;
+    }
+    header .navbar .search form i {
+        font-size: 18px;
+    }
+    header .navbar .search .search-page input {
+        font-size: 16px;
+    }
+
+    header .responsive-phone .menu{
+        top: 60px;
+    }
+    header .responsive-phone .menu>li:hover>a{
+        color: #d34178;
+    }
+
+    header .responsive-phone .menu .fa-angle-down{
+        display: inline-block;
+    }
+    header .responsive-phone .menu .fa-angle-right{
+        display: none;
+    }
+
+    header .responsive-phone .dropdown{
+        max-height: 0;
+        overflow: hidden;
+        transition: all 1s ease;
+      
+    }
+
+    header .responsive-phone>ul>li:hover .dropdown{
+        max-height: 50vh;
+        transition: all 1s ease;
+        overflow: auto;
+        /* hide scrollbar for firefox */
+        scrollbar-width: none;
+    }
+    /* hide scrollbar for Chrome, Safari and Opera  */
+    header .responsive-phone .dropdown::-webkit-scrollbar{
+        display: none;
+    }
+    header .responsive-phone>ul>li> .dropdown>li>.sou-dropdown::-webkit-scrollbar{
+        display: none;
+    }
+    header .responsive-phone>ul>li> .dropdown>li>.sou-dropdown{
+        max-height: 0;
+        overflow: hidden;
+        transition: all 1s ease;
+        /* hide scrollbar for firefox */
+        scrollbar-width: none;
+    }
+    header .responsive-phone .dropdown>li:hover .sou-dropdown{
+        max-height: 50vh;
+        transition: all 1s ease;
+        overflow: auto;
+    }
+
+
+
+}

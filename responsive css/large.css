@@ -1,0 +1,18 @@
+
+
+/*-------------------------------------------------------------------*/
+/*                         large responisive                         */
+/*-------------------------------------------------------------------*/
+
+@media(min-width:992px) and (max-width:1150px){
+    header .container{
+        
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px 0;
+        
+    }
+    header .navbar .responsive-pc > ul > li:hover .dropdown {
+        top: 85px;
+    }
+}
