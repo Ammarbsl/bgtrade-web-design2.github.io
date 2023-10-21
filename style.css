@@ -581,7 +581,7 @@ main .top-main .container .button a:hover + button{
 
 main .metaasset{
     width: 100%;
-    background-image: url(/img/bg2.png);
+    background-image: URL("https://imagetolink.com/ib/nDpNtarMAO.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
